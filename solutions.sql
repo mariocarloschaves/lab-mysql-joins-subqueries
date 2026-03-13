@@ -1,3 +1,6 @@
+USE SAKILA;
+
+
 SELECT COUNT(*) AS copies
 FROM inventory
 WHERE film_id = (
